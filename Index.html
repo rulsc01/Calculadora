@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
+                
+</head>
+<body>
+    <div id="calculadora">
+        <div id="margen">
+        <input type="text" id="pantalla">
+        </div>
+        <div id="fila6">
+            
+            
+            <button id="clear" onclick="limpiar()">CLEAR</button>
+            <button id="DEL" onclick="del()">DEL</button>
+            <button onclick="calcular()">=</button>
+        </div>
+        <div id="fila1">
+            <button onclick="imprimir('1')">1</button>
+            <button onclick="imprimir('2')">2</button>
+            <button onclick="imprimir('3')">3</button>
+            <button onclick="imprimir('+')">+</button>
+        <div id="fila2">
+            <button onclick="imprimir('4')">4</button>
+            <button onclick="imprimir('5')">5</button>
+            <button onclick="imprimir('6')">6</button>
+            <button onclick="imprimir('-')">-</button>
+        </div> 
+        <div id="fila3">
+            <button onclick="imprimir('7')">7</button>
+            <button onclick="imprimir('8')">8</button>
+            <button onclick="imprimir('9')">9</button>
+            <button onclick="imprimir('*')">x</button>
+        </div>
+        <div id="fila4">
+            <button onclick="imprimir('0')">0</button>
+            <button onclick="imprimir('.')">.</button>
+            <button onclick="imprimir('/')">/</button>
+            <button id="Ans" onclick="Ans()">ANS</button>
+        </div>
+
+    </div>
+    </body>
+<footer>
+    <script src="calculadora.js"></script>
+    <link rel="stylesheet" href="style.css">
+</footer>
+</html>
